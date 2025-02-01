@@ -8,7 +8,6 @@ interface CardProps {
   title: string,
   description: string,
   linkUrl?: string;
-  children?: React.ReactNode;
 }
 
 const Card: React.FC<CardProps> = ({
@@ -17,7 +16,6 @@ const Card: React.FC<CardProps> = ({
   title,
   description,
   linkUrl,
-  children,
 }) => {
   return (
     <div className="flex justify-center">

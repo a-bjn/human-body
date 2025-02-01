@@ -1,8 +1,4 @@
 export default function HeroSection() {
-  function handleClick() {
-    console.log('increment like count');
-  }
-
   return (
   <section className="relative w-full h-[86vh]">
     <video

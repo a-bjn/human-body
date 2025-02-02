@@ -40,7 +40,15 @@ const Card: React.FC<CardProps> = ({
           </div>
           {linkUrl && (
             <Link href={linkUrl} className="mt-auto items-center py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 w-1/3">
-              Read more
+              <div className="flex flex-row justify-center items-center">
+                <p className="mr-1">Read more</p>
+                <Image
+                  src="/right-arrow.svg"
+                  alt="Right Arrow"
+                  width={16}
+                  height={16}
+                />
+              </div>
             </Link>
           )}
         </div>

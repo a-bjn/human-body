@@ -117,7 +117,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 ;
-const Card = ({ imageSrc, altText, title, description, linkUrl, children })=>{
+const Card = ({ imageSrc, altText, title, description, linkUrl })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "flex justify-center",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -133,7 +133,7 @@ const Card = ({ imageSrc, altText, title, description, linkUrl, children })=>{
                     objectFit: "cover"
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/Card.tsx",
-                    lineNumber: 25,
+                    lineNumber: 23,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -146,7 +146,7 @@ const Card = ({ imageSrc, altText, title, description, linkUrl, children })=>{
                                     children: title
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Card.tsx",
-                                    lineNumber: 36,
+                                    lineNumber: 34,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
@@ -154,39 +154,65 @@ const Card = ({ imageSrc, altText, title, description, linkUrl, children })=>{
                                     children: description
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Card.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 37,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/Card.tsx",
-                            lineNumber: 35,
+                            lineNumber: 33,
                             columnNumber: 11
                         }, this),
                         linkUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: linkUrl,
                             className: "mt-auto items-center py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 w-1/3",
-                            children: "Read more"
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-row justify-center items-center",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "mr-1",
+                                        children: "Read more"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Card.tsx",
+                                        lineNumber: 44,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/right-arrow.svg",
+                                        alt: "Right Arrow",
+                                        width: 16,
+                                        height: 16
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/Card.tsx",
+                                        lineNumber: 45,
+                                        columnNumber: 17
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/app/components/Card.tsx",
+                                lineNumber: 43,
+                                columnNumber: 15
+                            }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/Card.tsx",
-                            lineNumber: 44,
+                            lineNumber: 42,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/Card.tsx",
-                    lineNumber: 34,
+                    lineNumber: 32,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/components/Card.tsx",
-            lineNumber: 24,
+            lineNumber: 22,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/components/Card.tsx",
-        lineNumber: 23,
+        lineNumber: 21,
         columnNumber: 5
     }, this);
 };
@@ -223,31 +249,31 @@ function ChaptersSection() {
         },
         {
             id: 2,
-            imageSrc: '/cell.webp',
-            altText: 'Tesuturile',
-            title: 'Tesuturile',
-            description: 'Țesuturile reprezintă sisteme organizate de materie vie alcătuite din celule similare. În organisme, acestea îndeplinesc aceeași funcție sau același grup de funcții.',
-            linkUrl: '/details/1'
-        },
-        {
-            id: 3,
-            imageSrc: '/cell.webp',
-            altText: 'Maduva Spinarii',
-            title: 'Maduva Spinarii',
-            description: 'Măduva spinării face parte din sistemul nervos central, fiind protejată de canalul vertebral, legat de gât, trunchi și extremitățile corpului prin intermediul nervilor spinali.',
-            linkUrl: '/details/1'
-        },
-        {
-            id: 4,
-            imageSrc: '/cell.webp',
+            imageSrc: '/plamani.webp',
             altText: 'Respiratia',
             title: 'Respiratia',
             description: 'Respirația este un proces fiziologic fundamental prin care organismele realizează un schimb de oxigen și dioxid de carbon cu mediul înconjurător. ',
             linkUrl: '/details/1'
         },
         {
+            id: 3,
+            imageSrc: '/tesut.webp',
+            altText: 'Tesuturile',
+            title: 'Tesuturile',
+            description: 'Țesuturile reprezintă sisteme organizate de materie vie alcătuite din celule similare. În organisme, acestea îndeplinesc aceeași funcție sau același grup de funcții.',
+            linkUrl: '/details/1'
+        },
+        {
+            id: 4,
+            imageSrc: '/maduva-spinarii.webp',
+            altText: 'Maduva Spinarii',
+            title: 'Maduva Spinarii',
+            description: 'Măduva spinării face parte din sistemul nervos central, fiind protejată de canalul vertebral, legat de gât, trunchi și extremitățile corpului prin intermediul nervilor spinali.',
+            linkUrl: '/details/1'
+        },
+        {
             id: 5,
-            imageSrc: '/cell.webp',
+            imageSrc: '/sistemul-osos.webp',
             altText: 'Sistemul Osos',
             title: 'Sistemul Osos',
             description: 'Sistemul osos uman este un sistem complex, ce indeplineste multe functii importante, de la a permite mobilitatea corpului pana la a asigura protectia organelor interne.',
@@ -255,7 +281,7 @@ function ChaptersSection() {
         },
         {
             id: 6,
-            imageSrc: '/cell.webp',
+            imageSrc: '/sistemul-muscular.webp',
             altText: 'Sistemul Muscular',
             title: 'Sistemul Muscular',
             description: 'Sistemul muscular reprezintă totalitatea mușchilor, cu ajutorul cărora se realizează locomoția și alte funcții vitale, formând împreună cu oasele de care sunt atașate, aparatul locomotor.',

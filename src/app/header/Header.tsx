@@ -36,13 +36,9 @@ export default function Header() {
             <li className="hover:text-teal-400">
               <a href="#chapters">Chapters</a>
             </li>
-            <li className="hover:text-teal-400">
-              <a href="#animations">NuStiuInca</a>
-            </li>
           </ul>
         </nav>
       </div>
-      
     </header>
   );
 }

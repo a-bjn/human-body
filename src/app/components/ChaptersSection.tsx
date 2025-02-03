@@ -55,10 +55,7 @@ export default function ChaptersSection() {
   ];
 
   return (
-  <section className="relative w-full h-screen-min py-28 bg-gray-900">
-    <div>
-
-    </div>
+  <section id="chaptersSection" className="relative w-full h-screen-min py-28 bg-gray-900">
     <div className="container mx-auto px-20 flex flex-col items-center">
       <div className="flex flex-col text-center text-white items-center mb-16 w-3/4">
         <h1 className="text-5xl font-bold my-8">

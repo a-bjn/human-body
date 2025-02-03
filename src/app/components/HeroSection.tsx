@@ -1,4 +1,13 @@
+"use client"
+
 export default function HeroSection() {
+  const handleScroll = () => {
+    const targetSection = document.getElementById('chaptersSection');
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: 'smooth'});
+    }
+  };
+
   return (
   <section className="relative w-full h-[86vh]">
     <video
@@ -24,7 +33,7 @@ export default function HeroSection() {
           care oferă conținut captivant, pentru a îmbunătăți experiența ta de 
           învățare despre incredibilul corp uman.
         </h2>
-        <button className="w-1/3 py-6 bg-teal-600 rounded-full font-medium text-2xl mt-12">
+        <button onClick={handleScroll} className="w-1/3 py-6 bg-teal-600 rounded-full font-medium text-2xl mt-12">
           Aflati mai multe!
         </button>
       </div>

@@ -8,7 +8,6 @@ import Typography from "@mui/material/Typography";
 import Link from "next/link";
 
 const drawerWidth = 240;
-const headerHeight = 112;
 
 interface ChaptersDrawerProps {
   activeChapter: string | null;

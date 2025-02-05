@@ -16,22 +16,13 @@
       "static/chunks/465-14a49311f22c1089.js",
       "static/chunks/app/layout-abe2158a69dfcefa.js"
     ],
-    "/biologie-corint/[id]/page": [
-      "static/chunks/webpack-461b85b694526ae0.js",
-      "static/chunks/4bd1b696-58c38a710603c89b.js",
-      "static/chunks/517-84af13d43298f85a.js",
-      "static/chunks/main-app-310638169078f913.js",
-      "static/chunks/465-14a49311f22c1089.js",
-      "static/chunks/702-21ef9febf890f074.js",
-      "static/chunks/app/biologie-corint/[id]/page-da07c0b5ee917d84.js"
-    ],
     "/page": [
       "static/chunks/webpack-461b85b694526ae0.js",
       "static/chunks/4bd1b696-58c38a710603c89b.js",
       "static/chunks/517-84af13d43298f85a.js",
       "static/chunks/main-app-310638169078f913.js",
       "static/chunks/465-14a49311f22c1089.js",
-      "static/chunks/app/page-5b39b05517908ffc.js"
+      "static/chunks/app/page-6bbca513194f474e.js"
     ],
     "/home/page": [
       "static/chunks/webpack-461b85b694526ae0.js",
@@ -39,7 +30,16 @@
       "static/chunks/517-84af13d43298f85a.js",
       "static/chunks/main-app-310638169078f913.js",
       "static/chunks/465-14a49311f22c1089.js",
-      "static/chunks/app/home/page-3af5c7c6b6da046a.js"
+      "static/chunks/app/home/page-bca97b63e54ce0fe.js"
+    ],
+    "/biologie-corint/[id]/page": [
+      "static/chunks/webpack-461b85b694526ae0.js",
+      "static/chunks/4bd1b696-58c38a710603c89b.js",
+      "static/chunks/517-84af13d43298f85a.js",
+      "static/chunks/main-app-310638169078f913.js",
+      "static/chunks/465-14a49311f22c1089.js",
+      "static/chunks/702-347283af186f1120.js",
+      "static/chunks/app/biologie-corint/[id]/page-4f72f7bc72b4d083.js"
     ]
   }
 }

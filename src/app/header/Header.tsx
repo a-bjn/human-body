@@ -1,10 +1,11 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="p-6 bg-white shadow-md relative">
+    <header className="p-2 bg-white shadow-md w-full z-[1300] fixed">
       <div className="flex flex-row justify-between items-center px-12">
         <div className="flex items-center gap-2">
           <div className="rounded-full overflow-hidden w-16 h-16 mr-4">
@@ -25,16 +26,19 @@ export default function Header() {
         <nav>
           <ul className="flex gap-8 text-xl text-gray-600 font-normal">
             <li className="hover:text-teal-400">
-              <a href="#home" className="relative">
+              <Link href="/" className="relative group cursor-pointer">
                 Home
-                <span className="block w-full h-0.5 bg-teal-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left absolute bottom-0 left-0"></span>
-              </a>
+              </Link>
             </li>
             <li className="hover:text-teal-400">
-              <a href="#overview">Overview</a>
+              <Link href="/#overview" scroll={true} className="cursor-pointer">
+                Overview
+              </Link>
             </li>
             <li className="hover:text-teal-400">
-              <a href="#chapters">Chapters</a>
+              <Link href="/#chapters" scroll={true} className="cursor-pointer">
+                Chapters
+              </Link>
             </li>
           </ul>
         </nav>

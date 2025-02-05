@@ -10,7 +10,7 @@ export default function ChaptersSection() {
       altText: 'Celula si Organitele Celulare',
       title: 'Celula si Organitele Celulare',
       description: 'Celula reprezintă unitatea morfo-funcțională și genetică a organizării materiei vii. Ca formă de existență, aceasta poate funcționa individual sau în grup.',
-      linkUrl: '/details/1',
+      linkUrl: '/celula',
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ export default function ChaptersSection() {
       altText: 'Respiratia',
       title: 'Respiratia',
       description: 'Respirația este un proces fiziologic fundamental prin care organismele realizează un schimb de oxigen și dioxid de carbon cu mediul înconjurător. ',
-      linkUrl: '/details/1',
+      linkUrl: '/respiratia',
     },
     {
       id: 3,
@@ -55,29 +55,29 @@ export default function ChaptersSection() {
   ];
 
   return (
-  <section id="chaptersSection" className="relative w-full h-screen-min py-28 bg-gray-900">
-    <div className="container mx-auto px-20 flex flex-col items-center">
-      <div className="flex flex-col text-center text-white items-center mb-16 w-3/4">
-        <h1 className="text-5xl font-bold my-8">
-          Exploreaza in Detaliu Biologia Umana
-        </h1>
-        <p className="text-2xl font-light text-gray-300">
-          Corpul uman este o mașinărie complexă și fascinantă, 
-          alcătuită din sisteme interconectate 
-          care lucrează împreună pentru a susține viața. 
-          În această secțiune, vei explora în detaliu structura și
-         funcțiile organismului, de la celule microscopice până la 
-         organe esențiale și mecanismele care ne permit să gândim,
-          să ne mișcăm și să supraviețuim. Descoperă secretele ADN-ului, 
-          funcționarea inimii, complexitatea creierului și multe altele!
-        </p>
+    <section id="chapters" className="relative w-full h-screen-min py-28 bg-gray-900">
+      <div className="container mx-auto px-20 flex flex-col items-center">
+        <div className="flex flex-col text-center text-white items-center mb-16 w-3/4">
+          <h1 className="text-5xl font-bold my-8">
+            Exploreaza in Detaliu Biologia Umana
+          </h1>
+          <p className="text-2xl font-light text-gray-300">
+            Corpul uman este o mașinărie complexă și fascinantă, 
+            alcătuită din sisteme interconectate 
+            care lucrează împreună pentru a susține viața. 
+            În această secțiune, vei explora în detaliu structura și
+            funcțiile organismului, de la celule microscopice până la 
+            organe esențiale și mecanismele care ne permit să gândim,
+            să ne mișcăm și să supraviețuim. Descoperă secretele ADN-ului, 
+            funcționarea inimii, complexitatea creierului și multe altele!
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+          {cards.map((card) => (
+            <Card key={card.id} {...card} />
+          ))}
+        </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-        {cards.map((card) => (
-          <Card key={card.id} {...card} />
-        ))}
-      </div>
-    </div>
-  </section>
+    </section>
   );
 }

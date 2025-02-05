@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function OverviewSection() {
   return (
-  <section className="relative w-full h-screen flex justify-center py-20">
+  <section id="overview" className="relative w-full h-screen flex justify-center py-20">
     <div className="relative z-10 h-full w-3/4 justify-center items-center px-24">
       <div className="flex flex-col px-8 py-16 w-full h-full justify-evenly">
         <h1 className="text-5xl font-bold mb-4">

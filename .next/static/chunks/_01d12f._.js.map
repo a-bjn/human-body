@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/andya/human-body/src/app/page.tsx"],"sourcesContent":["\"use client\";\n\nimport { useEffect } from \"react\";\nimport { usePathname } from \"next/navigation\";\nimport HomePage from \"./home/page\";\n\nexport default function Home() {\n  const pathname = usePathname();\n\n  useEffect(() => {\n    if (typeof window !== \"undefined\" && window.location.hash) {\n      const element = document.querySelector(window.location.hash);\n      if (element) {\n        element.scrollIntoView({ behavior: \"smooth\" });\n      }\n    }\n  }, [pathname]);\n\n  return (\n    <div className=\"min-h-screen\">\n      <HomePage />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAEA;AACA;;;;;;;;AAHA;;;;AAMe,SAAS;;IACtB,MAAM,WAAW,CAAA,GAAA,qIAAA,CAAA,cAAW,AAAD;IAE3B,CAAA,GAAA,6JAAA,CAAA,YAAS,AAAD;0BAAE;YACR,IAAI,aAAkB,eAAe,OAAO,QAAQ,CAAC,IAAI,EAAE;gBACzD,MAAM,UAAU,SAAS,aAAa,CAAC,OAAO,QAAQ,CAAC,IAAI;gBAC3D,IAAI,SAAS;oBACX,QAAQ,cAAc,CAAC;wBAAE,UAAU;oBAAS;gBAC9C;YACF;QACF;yBAAG;QAAC;KAAS;IAEb,qBACE,6LAAC;QAAI,WAAU;kBACb,cAAA,6LAAC;;;;;;;;;;AAGP;GAjBwB;;QACL,qIAAA,CAAA,cAAW;;;KADN"}},
+    {"offset": {"line": 65, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 75, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/andya/human-body/node_modules/next/navigation.js"],"sourcesContent":["module.exports = require('./dist/client/components/navigation')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0]}},
+    {"offset": {"line": 76, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

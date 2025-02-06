@@ -29,9 +29,9 @@ export default function ChaptersPage() {
 
   return (
     <section className="w-full h-full bg-gray-100">
-      <div className="container mx-auto flex p-20">
+      <div className="container mx-auto flex py-20">
         <ChaptersDrawer activeChapter={selectedChapter} />
-        <div className="p-10 px-18 flex flex-col items-start bg-white border border-gray-300 rounded-xl shadow-xl mt-8">{chapterContent}</div>
+        <div className="p-10 flex flex-col items-start bg-white border border-gray-300 rounded-xl shadow-xl mt-8">{chapterContent}</div>
       </div>
     </section>
     

@@ -314,9 +314,9 @@ const CelulaSiOrganiteleCelulare = () => {
               </p>
               <ul className="list-disc list-inside">
                 <li><span className="font-semibold">Mononucleate</span> - majoritatea celulelor</li>
-                <li><span className="font-semibold">Neurofibrele</span> - hepatociale (sunt celulele ficatului)</li>
-                <li><span className="font-semibold">Corpii Nissl</span> - fibra musculară striată</li>
-                <li><span className="font-semibold">Anucleate</span> - hematia adultă</li>
+                <li><span className="font-semibold">Binucleate</span> - hepatociale (sunt celulele ficatului)</li>
+                <li><span className="font-semibold">Polinucleate</span> - fibra musculară striată</li>
+                <li><span className="font-semibold">Anucleate (fără nucleu)</span> - hematia adultă</li>
               </ul>
             </div>
             <p>

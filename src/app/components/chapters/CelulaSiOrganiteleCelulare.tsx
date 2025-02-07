@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import { scrollToSection } from "../../utils/scrollToSection";
 
 const CelulaSiOrganiteleCelulare = () => {
   return (
@@ -7,12 +9,24 @@ const CelulaSiOrganiteleCelulare = () => {
 			<div className="text-lg space-y-1">
 				<h3 className="text-xl"> Cuprins: </h3>
 				<ol className="text-blue-500 ml-4">
-					<li className="hover:text-blue-700 transition cursor-pointer">1.1 Celula</li>
-					<li className="hover:text-blue-700 transition cursor-pointer">1.2 Dimensiunea Celulelor</li>
-					<li className="hover:text-blue-700 transition cursor-pointer">1.3 Structura Celulei</li>
+          <li className="hover:text-blue-700 transition cursor-pointer">
+            <Link href="#celula" onClick={(e) => { e.preventDefault(); scrollToSection("celula"); }}>
+              1.1 Celula
+            </Link>
+          </li>
+					<li className="hover:text-blue-700 transition cursor-pointer">
+            <Link href="dimensiunile-celulelor" onClick={(e) => { e.preventDefault(); scrollToSection("dimensiunile-celulelor"); }}>
+              1.2 Dimensiunile Celulelor
+            </Link>
+          </li>
+					<li className="hover:text-blue-700 transition cursor-pointer">
+            <Link href="structura-celulei" onClick={(e) => { e.preventDefault(); scrollToSection("structura-celulei"); }}>
+              1.3 Structura Celulei
+            </Link>
+          </li>
 				</ol>
 			</div>
-			<div id="#1-1-celula" className="space-y-4">
+			<div id="celula" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 1.1 Celula </h2>
         <div className="ml-4">
           <p className="text-xl">
@@ -42,7 +56,7 @@ const CelulaSiOrganiteleCelulare = () => {
           </div>
         </div>
 			</div>
-      <div id="#1-2-dimensiunea-celulelor" className="space-y-4">
+      <div id="dimensiunile-celulelor" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 1.2 Dimensiunea Celulelor </h2>
         <div className="ml-4 space-y-4 text-xl">
           <div className="space-y-4">
@@ -69,7 +83,7 @@ const CelulaSiOrganiteleCelulare = () => {
           </div>
         </div>
 			</div>
-      <div id="#1-3-structura-celulei">
+      <div id="structura-celulei">
         <h2 className="text-2xl font-semibold mb-8"> 1.3 Structura Celulei </h2>
         <div className="ml-4 space-y-8 text-xl">
           <div className="space-y-4">
@@ -85,12 +99,12 @@ const CelulaSiOrganiteleCelulare = () => {
           <div className="space-y-12">
             <p>
               1. <span className="font-semibold">Membrana celulară</span> cunoscută și sub denumirea de 
-              <span className="font-semibold">membrană plasmatică</span> sau <span className="font-semibold">plasmalema</span>, 
+              <span className="font-semibold"> membrană plasmatică</span> sau <span className="font-semibold">plasmalema</span>, 
               înconjoară conținutul celular, separă structurile interne de mediul extracelular, 
               contribuind la asigurarea formei celulei. Principalele componente din structura sa sunt: 
               proteine și fosfolipide. Acestea din urmă sunt alcătuite dintr-o componentă hidrofilă și 
               una hidrofobă. <span className="font-semibold">Orientarea porțiunii hidrofile este către margini și a celei hidrofobe 
-              în interior</span>. Prin dispunerea lor, <span className="font-semibold">porțiunea hidrofilă formează un strat dublu (bistrat)</span>
+              în interior</span>. Prin dispunerea lor, <span className="font-semibold">porțiunea hidrofilă formează un strat dublu (bistrat) </span>
               care la interior cuprinde porțiunea hidrofobă a fosfolipidelor. Această componentă 
               hidrofobă intervine în restricționarea accesului transmembranar a ionilor și moleculelor 
               solubile în apă (hidrosolubile). 
@@ -133,10 +147,10 @@ const CelulaSiOrganiteleCelulare = () => {
           <div className="space-y-12">
             <p>
               2. <span className="font-semibold">Citoplasma</span> prezintă o structură complexă cu implicații în
-              desfășurarea principalelor funcții vitale. În esență, citoplasma este un <span className="font-semibold">sistem coloidal</span> 
+              desfășurarea principalelor funcții vitale. În esență, citoplasma este un <span className="font-semibold">sistem coloidal </span> 
               în care apa este mediul de dispersie, iar faza dispersată este reprezentată de un ansamblu de micelii 
               coloidale care se găsesc într-o mișcare browniană. Din punct de vedere funcțional, 
-              citoplasma prezintă o <span className="font-semibold">componentă nestructurată (hialoplasma)</span> 
+              citoplasma prezintă o <span className="font-semibold">componentă nestructurată (hialoplasma) </span> 
               și o componentă structurată, reprezentată de <span className="font-semibold">organitele celulare</span>. Acestea din urmă pot intra 
               în alcătuirea tuturor celulelor sau pot fi specifice, fiind prezente doar în cazul anumitor celulele și la nivelul cărora îndeplinesc anumite funcții.
             </p>
@@ -223,13 +237,13 @@ const CelulaSiOrganiteleCelulare = () => {
               </p>
               <p>
                 <span className="font-semibold">Structura:</span> Mitocondriile prezintă o formă ovală, rotundă, având 
-                <span className="font-semibold">un perete de structură trilaminară lipoproteică</span> (membrană internă - spațiu - membrană externă). 
+                <span className="font-semibold"> un perete de structură trilaminară lipoproteică</span> (membrană internă - spațiu - membrană externă). 
                 Între membrana externă (învelișul extern) și cea internă există un interspațiu. 
                 Membrana internă este plicaturată (prezintă numeroase pliuri) care contribuie la 
                 formarea de <span className="font-semibold">creste mitocondriale</span>. La interior se adăpostește 
-                <span className="font-semibold">matricea mitocondrială</span> 
+                <span className="font-semibold"> matricea mitocondrială</span> 
                 la nivelul căreia se găsesc sisteme enzimatice care sunt responsabile de 
-                <span className="font-semibold">fosforilarea oxidativă</span> (sinteza ATP - adenozin-trifosfat).      
+                <span className="font-semibold"> fosforilarea oxidativă</span> (sinteza ATP - adenozin-trifosfat).      
               </p>
               <p>
                 <span className="font-semibold">Functii:</span> Aparatul Golgi intervine în excreția anumitor substanțe celulare.

@@ -9,19 +9,19 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative w-full h-[86vh]">
+    <section className="relative w-full h-screen">
       <video
         autoPlay
         loop
         muted
         playsInline
-        className="absolute top-0 left-0 w-full h-full object-fill"
+        className="absolute top-16 left-0 w-full h-full object-fill"
       >
         <source src="/hb-background-gif.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
-      <div className="absolute top-0 left-0 w-full h-full bg-black/50"></div>
+      <div className="absolute top-16 left-0 w-full h-full bg-black/50"></div>
 
       <div className="relative z-10 flex flex-col items-start p-12 text-gray-200 h-full w-full justify-end">
         <div className="flex flex-col gap-2 w-2/3 p-16">

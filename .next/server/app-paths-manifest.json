@@ -1,3 +1,4 @@
 {
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/biologie-corint/[id]/page": "app/biologie-corint/[id]/page.js"
 }

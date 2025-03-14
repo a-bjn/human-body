@@ -15,7 +15,7 @@ export default function ChaptersPage() {
   const selectedChapter = params.id as string;
 
   const chapterComponents: Record<string, JSX.Element> = {
-    "celula-si-organitele-celulare": <CelulaSiOrganiteleCelulare />,
+    "celula-si-organitele-celulare": <CelulaSiOrganiteleCelulare/>,
     "respiratia": <RespiratiaChapter/>,
     "tesuturile": <TesuturiChapter/>,
     "maduva-spinarii": <MaduvaSpinariiChapter/>,

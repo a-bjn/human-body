@@ -44,14 +44,15 @@ const chapters = [
   },
   {
     title: "4. Maduva Spinarii",
+    subchapters: ["4.1 Maduva spinarii", "4.2 Caile ascendente ale sensibilitatii", "4.3 Caile descendente ale motricitatii", "4.4 Nervi spinali", "4.5 Functiile maduvei spinarii"],
   },
   {
     title: "5. Sistemul Osos",
-    subchapters: ["Oasele Corpului", "Structura Osului"],
+    subchapters: ["5.1 Introducere", "5.2 Sistemul osos informatii generale", "5.3 Scheletul", "5.4 Scheletul capului", "5.5 Scheletul trunchiului", "5.6 Scheletul membrelor", "5.7 Rolurile functionale ale oaselor", "5.8 Compozitia chimica a oaselor", "5.9 Articulatiile"],
   },
   {
     title: "6. Sistemul Muscular",
-    subchapters: ["Tipuri de Muschi", "Functii Musculare"],
+    subchapters: ["6.1 Introducere", "6.2 Structura muschiului", "6.3 Principale grupe de muschi scheletici", "6.4 Muschii membrelor"],
   },
 ];
 

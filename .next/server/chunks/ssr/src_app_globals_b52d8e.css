@@ -335,6 +335,10 @@ img, video {
   }
 }
 
+.static {
+  position: static;
+}
+
 .fixed {
   position: fixed;
 }
@@ -499,18 +503,6 @@ img, video {
 
 .w-full {
   width: 100%;
-}
-
-.w-1\/5 {
-  width: 20%;
-}
-
-.w-2\/6 {
-  width: 33.3333%;
-}
-
-.w-2\/5 {
-  width: 40%;
 }
 
 .min-w-full {
@@ -815,6 +807,11 @@ img, video {
   line-height: 1;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -828,11 +825,6 @@ img, video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .font-bold {
@@ -853,10 +845,6 @@ img, video {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-thin {
-  font-weight: 100;
 }
 
 .tracking-tight {

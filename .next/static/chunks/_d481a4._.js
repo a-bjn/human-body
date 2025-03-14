@@ -9,14 +9,38 @@ __turbopack_esm__({
     "default": (()=>HeroSection)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module 'aos'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module 'aos/dist/aos.css'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+;
+var _s = __turbopack_refresh__.signature();
 "use client";
 ;
+;
+;
 function HeroSection() {
+    _s();
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "HeroSection.useEffect": ()=>{
+            AOS.init({
+                duration: 1000,
+                once: true
+            });
+        }
+    }["HeroSection.useEffect"], []);
     const handleScroll = ()=>{
-        const targetSection = document.getElementById('chaptersSection');
+        const targetSection = document.getElementById("overview");
         if (targetSection) {
             targetSection.scrollIntoView({
-                behavior: 'smooth'
+                behavior: "smooth"
             });
         }
     };
@@ -35,21 +59,21 @@ function HeroSection() {
                         type: "video/mp4"
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/HeroSection.tsx",
-                        lineNumber: 20,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, this),
                     "Your browser does not support the video tag."
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/HeroSection.tsx",
-                lineNumber: 13,
+                lineNumber: 21,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute top-16 left-0 w-full h-full bg-black/50"
             }, void 0, false, {
                 fileName: "[project]/src/app/components/HeroSection.tsx",
-                lineNumber: 24,
+                lineNumber: 32,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -59,47 +83,54 @@ function HeroSection() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                             className: "text-6xl font-bold mb-4",
+                            "data-aos": "fade-up",
+                            "data-aos-delay": "100",
                             children: "Biologia Corpului Uman"
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/HeroSection.tsx",
-                            lineNumber: 28,
+                            lineNumber: 36,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-4xl font-regular text-gray-400 pt-4",
+                            "data-aos": "fade-up",
+                            "data-aos-delay": "200",
                             children: "Bun venit pe platforma noastră educațională dedicată biologiei umane, care oferă conținut captivant, pentru a îmbunătăți experiența ta de învățare despre incredibilul corp uman."
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/HeroSection.tsx",
-                            lineNumber: 31,
+                            lineNumber: 43,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: handleScroll,
                             className: "w-1/3 py-6 bg-teal-600 rounded-full font-medium text-2xl mt-12",
+                            "data-aos": "fade-up",
+                            "data-aos-delay": "300",
                             children: "Aflati mai multe!"
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/HeroSection.tsx",
-                            lineNumber: 36,
+                            lineNumber: 52,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/HeroSection.tsx",
-                    lineNumber: 27,
+                    lineNumber: 35,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/HeroSection.tsx",
-                lineNumber: 26,
+                lineNumber: 34,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/components/HeroSection.tsx",
-        lineNumber: 12,
+        lineNumber: 20,
         columnNumber: 5
     }, this);
 }
+_s(HeroSection, "OD7bBpZva5O2jO+Puf00hKivP7c=");
 _c = HeroSection;
 var _c;
 __turbopack_refresh__.register(_c, "HeroSection");

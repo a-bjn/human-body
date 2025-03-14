@@ -1,10 +1,18 @@
-"use client"
+"use client";
+
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function HeroSection() {
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true });
+  }, []);
+
   const handleScroll = () => {
-    const targetSection = document.getElementById('chaptersSection');
+    const targetSection = document.getElementById("overview");
     if (targetSection) {
-      targetSection.scrollIntoView({ behavior: 'smooth'});
+      targetSection.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -25,15 +33,28 @@ export default function HeroSection() {
 
       <div className="relative z-10 flex flex-col items-start p-12 text-gray-200 h-full w-full justify-end">
         <div className="flex flex-col gap-2 w-2/3 p-16">
-          <h1 className="text-6xl font-bold mb-4">
+          <h1
+            className="text-6xl font-bold mb-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             Biologia Corpului Uman
           </h1>
-          <h2 className="text-4xl font-regular text-gray-400 pt-4">
+          <h2
+            className="text-4xl font-regular text-gray-400 pt-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             Bun venit pe platforma noastră educațională dedicată biologiei umane, 
             care oferă conținut captivant, pentru a îmbunătăți experiența ta de 
             învățare despre incredibilul corp uman.
           </h2>
-          <button onClick={handleScroll} className="w-1/3 py-6 bg-teal-600 rounded-full font-medium text-2xl mt-12">
+          <button
+            onClick={handleScroll}
+            className="w-1/3 py-6 bg-teal-600 rounded-full font-medium text-2xl mt-12"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             Aflati mai multe!
           </button>
         </div>

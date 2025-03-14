@@ -43,7 +43,7 @@ const RespiratiaChapter = () => {
 			</div>
       <div id="plamanii" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 2.1 Plamanii </h2>
-        <div className="ml-4 space-y-8 text-xl">
+        <div className="ml-4 space-y-8 text-lg">
           <div className="space-y-8">
             <p>
               Din sistemul respirator fac parte căile respiratorii și plămânii. Căile respiratorii cuprind:
@@ -70,7 +70,7 @@ const RespiratiaChapter = () => {
       </div>
       <div id="ventilatia-pulmonara" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 2.2 Ventilatia Pulmonara </h2>
-        <div className="ml-4 space-y-8 text-xl">
+        <div className="ml-4 space-y-8 text-lg">
           <div className="space-y-8">
             <p>
               Respirația constă în schimbul de oxigen și dioxid de carbon dintre organism și mediu. Din punct de vedere funcțional, respirația prezintă:
@@ -129,7 +129,7 @@ const RespiratiaChapter = () => {
       </div>
       <div id="volume-si-capacitati-pulmonare" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 2.3 Volume și capacități pulmonare </h2>
-        <div className="ml-4 space-y-8 text-xl">
+        <div className="ml-4 space-y-8 text-lg">
           <div className="space-y-8">
             <p>
               <span className="font-semibold">Spirometria</span> – procedură facilă de investigare a ventilației pulmonare prin înregistrarea volumului aerului vehiculat spre interiorul și exteriorul plămânilor. Aparatul folosit în determinare se numește spirometru (motiv pentru care procedeul se numește spirometrie).
@@ -167,7 +167,7 @@ const RespiratiaChapter = () => {
       </div>
       <div id="difuziunea" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 2.4 Difuziunea </h2>
-        <div className="ml-4 space-y-8 text-xl">
+        <div className="ml-4 space-y-8 text-lg">
           <div className="space-y-8">
             <p>
               În cursul procesului respirator, după ventilația alveolară urmează procesul de difuziune a oxigenului din alveole în sângele capilar și în sens opus, difuziunea dioxidului de carbon. Procesul de difuziune are loc doar în condițiile existenței unei diferențe de presiune care orientează desfășurarea sa dinspre zona cu presiune mare către zona cu presiune mică. Unele dintre cauzele care dau diferențele dintre concentrația gazelor în aerul alveolar față de cel atmosferic, sunt:
@@ -219,7 +219,7 @@ const RespiratiaChapter = () => {
       </div>
       <div id="transportul-gazelor" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 2.5 Transportul Gazelor </h2>
-        <div className="ml-4 space-y-8 text-xl">
+        <div className="ml-4 space-y-8 text-lg">
           <div className="space-y-8">
             <h2 className="font-semibold"> Transportul oxigenului </h2>
             <div className="space-y-4">
@@ -249,7 +249,7 @@ const RespiratiaChapter = () => {
       </div>
       <div id="notiuni-elementare-de-igiena-si-patologie" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 2.6 Noțiuni elementare de igienă și patologie </h2>
-        <div className="ml-4 space-y-8 text-xl">
+        <div className="ml-4 space-y-8 text-lg">
           <div className="space-y-8">
             <p><span className="font-semibold">Gripa</span> – infecție respiratorie acută de cauză virală (virusul gripal). Este o patologie sezonieră, contagioasă, iar la vârstnici, în special, poate înregistra forme grave. În prezent, prin vaccinare antigripală se poate diminua numărul de cazuri, precum și gravitatea formelor.</p>
             <p><span className="font-semibold">Fibroza pulmonară</span> – afectare pulmonară prin care țesut funcțional pulmonar se înlocuiește cu țesut fibros. De exemplu – antracoza – cauzată prin inhalarea pe o perioadă mai lungă de timp a prafului de cărbune.</p>

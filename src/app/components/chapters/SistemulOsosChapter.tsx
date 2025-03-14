@@ -186,7 +186,7 @@ const SistemulOsosChapter = () => {
         <div className="ml-4 space-y-8 text-lg">
           <div className="space-y-8">
             <p><span className="font-semibold">Scheletul trunchiului</span> - alcătuire:</p>
-            <ul>
+            <ul className="list-disc list-inside space-y-4">
               <li><span className="font-semibold">Coloana vertebrala</span></li>
               <li><span className="font-semibold">Stern</span></li>
               <li><span className="font-semibold">Coaste</span></li>

@@ -4,9 +4,9 @@ import { scrollToSection } from "../../utils/scrollToSection";
 
 const CelulaSiOrganiteleCelulare = () => {
   return (
-    <section className="flex flex-col space-y-8 font-light">
+    <section className="flex flex-col space-y-8 font-normal">
       <h1 className="text-3xl font-bold">1. Celula și Organitele Celulare</h1>
-			<div className="text-lg space-y-1">
+			<div className="text-base space-y-1">
 				<h3 className="text-xl"> Cuprins: </h3>
 				<ol className="text-blue-500 ml-4">
           <li className="hover:text-blue-700 transition cursor-pointer">
@@ -29,7 +29,7 @@ const CelulaSiOrganiteleCelulare = () => {
 			<div id="celula" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 1.1 Celula </h2>
         <div className="ml-4">
-          <p className="text-xl">
+          <p className="text-base">
             Toate nivelurile de organizare ale corpului omenesc 
             (atom, moleculă, macromoleculă, organit, celulă, țesut, 
             organ, sistem de organe, organism) contribuie la baza 
@@ -43,9 +43,9 @@ const CelulaSiOrganiteleCelulare = () => {
                 height={100}
                 className="w-full rounded-lg mb-6"
             />
-            <p className="text-lg mb-20"><span className="font-semibold">Figura 1.1</span> Niveluri de organizare a corpului uman.</p>
+            <p className="text-base mb-20"><span className="font-semibold">Figura 1.1</span> Niveluri de organizare a corpului uman.</p>
           </div>
-          <div className="text-lg space-y-8">
+          <div className="text-base space-y-8">
             <p>
               <span className="font-semibold">Celula</span> reprezintă <span className="font-semibold">unitatea morfo-funcțională și genetică</span> a organizării materiei vii. 
               Ca formă de existență, aceasta poate funcționa individual sau în grup, atunci când contribuie la formarea țesuturilor.
@@ -58,7 +58,7 @@ const CelulaSiOrganiteleCelulare = () => {
 			</div>
       <div id="dimensiunile-celulelor" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 1.2 Dimensiunea Celulelor </h2>
-        <div className="ml-4 space-y-4 text-xl">
+        <div className="ml-4 space-y-4 text-base">
           <div className="space-y-4">
             <p>
               Stabilirea dimensiunilor celulelor este dependentă de mulți factori, printre care:
@@ -85,7 +85,7 @@ const CelulaSiOrganiteleCelulare = () => {
 			</div>
       <div id="structura-celulei">
         <h2 className="text-2xl font-semibold mb-8"> 1.3 Structura Celulei </h2>
-        <div className="ml-4 space-y-8 text-xl">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-4">
             <p>
               Cele 3 componente principale care intră în alcătuirea unei celule sunt:
@@ -123,9 +123,9 @@ const CelulaSiOrganiteleCelulare = () => {
                 alt="Spatiu Extracelular"
                 width={1000}
                 height={100}
-                className="w-full rounded-lg mb-6"
+                className="w-1/2 rounded-lg mb-6"
               />
-              <p className="text-lg"><span className="font-semibold">Figura 1.2</span> Modelul mozaic fluid al membranei celulare.</p>
+              <p className="text-base"><span className="font-semibold">Figura 1.2</span> Modelul mozaic fluid al membranei celulare.</p>
             </div>
             <p>
               Pe lângă componentele menționate anterior, membrana celulară prezintă pe fața externă și 
@@ -160,9 +160,9 @@ const CelulaSiOrganiteleCelulare = () => {
                 alt="Organizarea generală a unei celule. "
                 width={1000}
                 height={100}
-                className="w-3/4 rounded-lg mb-4"
+                className="w-1/2 rounded-lg mb-4"
               />
-              <p className="text-lg"><span className="font-semibold">Figura 1.3</span> Organizarea generală a unei celule.</p>
+              <p className="text-base"><span className="font-semibold">Figura 1.3</span> Organizarea generală a unei celule.</p>
             </div>
             <div className="space-y-2">
               <p>
@@ -208,7 +208,7 @@ const CelulaSiOrganiteleCelulare = () => {
                 height={100}
                 className="w-1/3 rounded-lg mb-4"
               />
-              <p className="text-lg"><span className="font-semibold">Figura 1.4</span> Dispunerea unor organite celulare.</p>
+              <p className="text-base"><span className="font-semibold">Figura 1.4</span> Dispunerea unor organite celulare.</p>
             </div>
             <div className="space-y-2">
               <p>
@@ -228,7 +228,7 @@ const CelulaSiOrganiteleCelulare = () => {
                   height={100}
                   className="w-1/3 rounded-lg mb-4"
                 />
-                <p className="text-lg"><span className="font-semibold">Figura 1.5</span> Structura aparatului Golgi.</p>
+                <p className="text-base"><span className="font-semibold">Figura 1.5</span> Structura aparatului Golgi.</p>
               </div>
             </div>
             <div className="space-y-2">
@@ -256,7 +256,7 @@ const CelulaSiOrganiteleCelulare = () => {
                   height={100}
                   className="w-2/4 rounded-lg mb-4"
                 />
-                <p className="text-lg"><span className="font-semibold">Figura 1.6</span> Structura mitocondriei.</p>
+                <p className="text-base"><span className="font-semibold">Figura 1.6</span> Structura mitocondriei.</p>
               </div>
             </div>
             <div className="space-y-2">

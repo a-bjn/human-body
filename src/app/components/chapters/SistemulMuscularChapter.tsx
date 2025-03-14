@@ -5,9 +5,9 @@ import { scrollToSection } from "../../utils/scrollToSection";
 
 const SistemulMuscularChapter = () => {
   return (
-    <section className="flex flex-col justify-between space-y-8 font-light">
+    <section className="flex flex-col justify-between space-y-8 font-normal">
       <h1 className="text-3xl font-bold">6. Sistemul muscular</h1>
-      <div className="text-lg space-y-1">
+      <div className="text-base space-y-1">
 				<h3 className="text-xl"> Cuprins: </h3>
 				<ol className="text-blue-500 ml-4">
 					<li className="hover:text-blue-700 transition cursor-pointer">
@@ -34,7 +34,7 @@ const SistemulMuscularChapter = () => {
 			</div>
       <div id="introducere" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 6.1 Introducere </h2>
-        <div className="ml-4 space-y-8 text-xl">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-8">
             <p>
               Muschii sunt <span className="font-semibold">organe active ale mișcării</span> care formează sistemul muscular. Rolul se atribuie musculaturii scheletice – somatice – care prezintă în alcătuirea sa țesut muscular striat.
@@ -55,7 +55,7 @@ const SistemulMuscularChapter = () => {
       </div>
       <div id="structura-muschiului" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 6.2 Structura muschiului</h2>
-        <div className="ml-4 space-y-8 text-lg">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-8">
             <p>
               Mușchii scheletici sunt alcătuiți dintr-o porțiune centrală musculară, voluminoasă – <span className="font-semibold">corpul mușchiului</span> – și două extremități albe-sidefii, din țesut fibros – <span className="font-semibold">tendoane</span>. Unul se inseră pe osul fix (se numește <span className="font-semibold">originea mușchiului</span>), iar celălalt se prinde de osul mobil (se numește <span className="font-semibold">inserția mușchiului</span>). În majoritatea cazurilor, originea mușchiului este unică, însă sunt și mușchi care au mai multe origini: biceps, triceps, cvadriceps.
@@ -81,7 +81,7 @@ const SistemulMuscularChapter = () => {
       </div>
       <div id="principalele-grupe-de-muschi-scheletici" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 6.3 Principalele grupe de muschi scheletici</h2>
-        <div className="ml-4 space-y-8 text-lg">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-8">
             <div className="flex flex-col items-center">
               <Image
@@ -101,7 +101,7 @@ const SistemulMuscularChapter = () => {
         <p className="text-xl font-bold">
           Mușchii capului
         </p>
-        <div className="ml-4 space-y-8 text-lg">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-8">
             <span className="font-semibold">Muschii capului</span> – prezinta 2 grupe de muschi:
             <ul className="list-disc list-inside space-y-4">
@@ -113,7 +113,7 @@ const SistemulMuscularChapter = () => {
         <p className="text-xl font-bold">
           Mușchii gâtului
         </p>
-        <div className="ml-4 space-y-8 text-lg">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-8">
             <span className="font-semibold">Mușchii gâtului</span> – dispuși în regiunea antero-laterală a gâtului, distribuiți pe mai multe planuri. De la suprafață spre profunzime se numără:
             <ul className="list-disc list-inside space-y-4">
@@ -122,7 +122,7 @@ const SistemulMuscularChapter = () => {
             </ul>
           </div>
         </div>
-        <div className="ml-4 space-y-8 text-lg">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-8">
             <p>
              <span className="font-semibold">Mușchii trunchiului</span> – grupeaza:
@@ -165,7 +165,7 @@ const SistemulMuscularChapter = () => {
         <p className="text-xl font-bold">
           Mușchii membrului superior
         </p>
-        <div className="ml-4 space-y-8 text-lg">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-8">
             <p>
              <span className="font-semibold">Mușchii membrului superior</span> – cuprind:
@@ -188,7 +188,7 @@ const SistemulMuscularChapter = () => {
         <p className="text-xl font-bold">
           Mușchii membrului superior
         </p>
-        <div className="ml-4 space-y-8 text-lg">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-8">
             <p>
              <span className="font-semibold">Mușchii membrului inferior</span> – cuprind:

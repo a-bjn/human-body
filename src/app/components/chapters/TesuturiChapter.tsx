@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const TesuturiChapter = () => {
   return (
-    <section className="flex flex-col space-y-8 font-light">
+    <section className="flex flex-col space-y-8 font-normal">
       <h1 className="text-3xl font-bold">3. Tesuturile</h1>
-      <div className="ml-4 space-y-4 text-xl">
+      <div className="ml-4 space-y-4 text-base">
         <p>
           Țesuturile reprezintă sisteme organizate de materie vie alcătuite din celule similare. În organisme, acestea îndeplinesc aceeași funcție sau același grup de funcții. Celulele care intră în alcătuirea țesuturilor sunt unite de o substanță intercelulară care poartă denumiri diferite din punct de vedere cantitativ. De exemplu, atunci când se găsește în cantitate mică – „substanță de ciment” și în cantitate mare – „substanță fundamentală”. 
         </p>
@@ -110,7 +110,7 @@ const TesuturiChapter = () => {
                   <td className="border px-4 py-2">
                     <span className="font-bold">simplu</span>: tubular, acinos
                   </td>
-                  <td className="border px-4 py-2" rowSpan={2}>în pancreas, testicul, ovar</td> {/* Fixed rowSpan */}
+                  <td className="border px-4 py-2" rowSpan={2}>în pancreas, testicul, ovar</td> {}
                 </tr>
                 <tr>
                   <td className="border px-4 py-2">

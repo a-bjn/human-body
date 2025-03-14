@@ -44,7 +44,7 @@ const chapters = [
   },
   {
     title: "4. Maduva Spinarii",
-    subchapters: ["4.1 Maduva spinarii", "4.2 Caile ascendente ale sensibilitatii", "4.3 Caile descendente ale motricitatii", "4.4 Nervi spinali", "4.5 Functiile maduvei spinarii"],
+    subchapters: ["4.1 Maduva spinarii (MS)", "4.2 Caile ascendente ale sensibilitatii", "4.3 Caile descendente ale motricitatii", "4.4 Nervii spinali", "4.5 Functiile maduvei spinarii"],
   },
   {
     title: "5. Sistemul Osos",

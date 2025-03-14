@@ -7,7 +7,7 @@ const SistemulOsosChapter = () => {
   return (
     <section className="flex flex-col justify-between space-y-8 font-normal">
       <h1 className="text-3xl font-bold">5. Sistemul Osos</h1>
-      <div className="text-lg space-y-1">
+      <div className="text-base space-y-1">
 				<h3 className="text-xl"> Cuprins: </h3>
 				<ol className="text-blue-500 ml-4">
 					<li className="hover:text-blue-700 transition cursor-pointer">
@@ -59,7 +59,7 @@ const SistemulOsosChapter = () => {
 			</div>
       <div id="introducere" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 5.1 Introducere </h2>
-        <div className="ml-4 space-y-8 text-lg">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-8">
             <p>
               Mișcarea, una dintre însușirile specifice organismelor vii, prezintă două componente prin intermediul cărora se poate realiza locomoția, mișcarea corpului, a unor segmente, și anume:
@@ -74,7 +74,7 @@ const SistemulOsosChapter = () => {
       </div>
       <div id="sistemul-osos-informatii-generale" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 5.2 Sistemul Osos </h2>
-        <div className="ml-4 space-y-8 text-lg">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-8">
             <p>
               <span className="font-semibold">Osteogeneză</span> – procesul de dezvoltare a oaselor. Acesta se realizează prin transformarea <span className="font-semibold">țesutului cartilaginos</span> (prin osificare encondrală) sau <span className="font-semibold">conjunctivo-fibros</span> (prin osificare desmală sau endoconjunctivă) al embrionului, în scheletul osos al adultului.
@@ -119,7 +119,7 @@ const SistemulOsosChapter = () => {
       </div>
       <div id="scheletul" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 5.3 Scheletul</h2>
-        <div className="ml-4 space-y-8 text-lg">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-8">
             <p>Scheletul constituie totalitatea oaselor așezate în poziție anatomică.</p>
             <div className="flex flex-col items-center">
@@ -149,7 +149,7 @@ const SistemulOsosChapter = () => {
       </div>
       <div id="scheletul-capului" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 5.4 Scheletul capului</h2>
-        <div className="ml-4 space-y-8 text-lg">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-8">
             <p><span className="font-semibold">Scheletul capului</span> - alcătuire:</p>
             <ul className="list-disc list-inside space-y-4">
@@ -183,7 +183,7 @@ const SistemulOsosChapter = () => {
       </div>
       <div id="scheletul-trunchiului" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 5.5 Scheletul trunchiului</h2>
-        <div className="ml-4 space-y-8 text-lg">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-8">
             <p><span className="font-semibold">Scheletul trunchiului</span> - alcătuire:</p>
             <ul className="list-disc list-inside space-y-4">
@@ -196,7 +196,7 @@ const SistemulOsosChapter = () => {
           </div>
         </div>
         <p><span className="font-semibold text-xl">Coloana vertebrala</span></p>
-        <div className="ml-4 space-y-8 text-lg">
+        <div className="ml-4 space-y-8 text-base">
           <p>
             Coloana vertebrală constituie <span className="font-semibold">scheletul axial</span>, fiind dispusă în partea mediană și posterioară a corpului. Roluri:
           </p>
@@ -291,7 +291,7 @@ const SistemulOsosChapter = () => {
       </div>
       <div id="scheletul-membrelor" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 5.6 Scheletul membrelor</h2>
-        <div className="ml-4 space-y-8 text-lg">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-8">
             <p><span className="font-semibold">Scheletul membrelor superioare</span>- alcătuire:</p>
             <ul className="list-disc list-inside space-y-4">
@@ -335,7 +335,7 @@ const SistemulOsosChapter = () => {
       </div>
       <div id="rolurile-functionale-ale-oaselor" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 5.7 Rolurile functionale ale oaselor</h2>
-        <div className="ml-4 space-y-8 text-lg">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-8">
             <p>rolurile functionale ale oaselor sunt:</p>
             <ul className="list-disc list-inside space-y-4">
@@ -405,7 +405,7 @@ const SistemulOsosChapter = () => {
       </div>
       <div id="compozitia-chimica-a-oaselor" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 5.8 Compoziția chimică a oaselor</h2>
-        <div className="ml-4 space-y-8 text-lg">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-8">
             <p>
               <span className="font-semibold">Osul conține: 20% apă și 80% reziduu uscat</span>. Din procentul de reziduu uscat, osul este format dintr-o matrice organică solidă care este foarte mult întărită de depozitele de săruri de calciu. Deci reziduul uscat al osului este format din matrice organică și săruri minerale.
@@ -427,7 +427,7 @@ const SistemulOsosChapter = () => {
       </div>
       <div id="articulatiile" className="space-y-4">
         <h2 className="text-2xl font-semibold"> 5.9 Articulatiile</h2>
-        <div className="ml-4 space-y-8 text-lg">
+        <div className="ml-4 space-y-8 text-base">
           <div className="space-y-8">
             <p>
               Articulațiile <span className="font-semibold">sunt organe de legătură</span> între oase. Reprezintă <span className="font-semibold">sediul mișcărilor</span>.
